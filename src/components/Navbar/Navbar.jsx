@@ -56,15 +56,15 @@ const Navbar = () => {
       {menuOpen && (
         <>
           {/* Overlay */}
-          <div
+          {/* <div
             className="fixed inset-0 bg-black bg-opacity-40 z-40"
             onClick={() => setMenuOpen(false)}
-          ></div>
+          ></div> */}
 
           {/* Side Drawer */}
           <div className='fixed top-0 right-0 w-[85%] h-full bg-white shadow-lg z-50 p-6 transition-all'>
-            <div className='flex justify-between items-center mb-6'>
-              <img src={Logo} alt="Logo" className='h-10' />
+            <div className='flex justify-end items-center mb-6'>
+              {/* <img src={Logo} alt="Logo" className='h-10' /> */}
               <FaTimes size={24} onClick={() => setMenuOpen(false)} />
             </div>
 
@@ -87,7 +87,7 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              <button className='contact-btn bold'>Contact Us</button>
+              <button className=''>Contact Us</button>
             </ul>
           </div>
         </>
