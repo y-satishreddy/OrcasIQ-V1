@@ -1,6 +1,5 @@
 import React from "react";
 import { FaChevronRight, FaRegCalendarAlt, FaGlobe } from "react-icons/fa";
-import Image from "../../../assets/girl.png" ;// Adjust the path if needed
 const DynamicBanner = ({ data }) => {
   const {
     linkText,
@@ -54,7 +53,7 @@ const DynamicBanner = ({ data }) => {
         </div>
       </div>
       <div className="h-[100%] w-[20%] banner-image">
-        <img src={Image} alt="Banner Visual" className="h-[100%]" />
+        <img src={imageUrl} alt="Banner Visual" className="h-[100%]" />
       </div>
     </div>
   );

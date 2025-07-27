@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BsPlus, BsDash } from "react-icons/bs";
 
+// Individual FAQ item component
 const FaqItem = ({ question, answer }) => {
   const [open, setOpen] = useState(false);
 
@@ -29,58 +30,36 @@ const FaqItem = ({ question, answer }) => {
   );
 };
 
-const FAQSection = () => {
+// Main FAQ section component
+const FAQSection = ({ data }) => {
+  if (!Array.isArray(data) || data.length === 0) {
+    return null; // Optionally display a message
+  }
+
+  const mid = Math.ceil(data.length / 2);
+  const leftColumn = data.slice(0, mid);
+  const rightColumn = data.slice(mid);
+
   return (
-    <div className="w-full bg-white px-[5%] py-[1%]">
+    <div className="w-full bg-white px-[5%] py-[2%]">
       <h2 className="text-black text-2xl md:text-3xl font-bold mb-6">
-        Frequently asked questions
+        Frequently Asked Questions
       </h2>
 
       <div className="grid md:grid-cols-2 gap-x-12 gap-y-4">
         <div>
-          <FaqItem
-            question="How do I upgrade / downgrade my workspace plan?"
-            answer="Go to settings and navigate to 'Billing'."
-          />
-          <FaqItem
-            question="Can I add other information to be added in an invoice?"
-            answer="Yes, you can add notes under Invoice Settings."
-          />
-          <FaqItem
-            question="When should I use a new table vs. a view?"
-            answer="Use a view for filtering, a table for separating data."
-          />
-          <FaqItem
-            question="How can I transfer data from one base to another?"
-            answer="Export CSV from one base and import into another."
-          />
-          <FaqItem
-            question="How do I change my account email address?"
-            answer="Visit your profile settings and update your email."
-          />
+          {leftColumn.map((item, index) => (
+            <FaqItem key={index} question={item.question} answer={item.answer} />
+          ))}
         </div>
-
         <div>
-          <FaqItem
-            question="How does billing work?"
-            answer="Billing is monthly or yearly depending on your plan."
-          />
-          <FaqItem
-            question="Can I share an individual app?"
-            answer="Yes, share links can be generated per app."
-          />
-          <FaqItem
-            question="Can I export a list of all collaborators?"
-            answer="Yes, via the admin panel or export option."
-          />
-          <FaqItem
-            question="Can invoices be sent to other collaborators?"
-            answer="Only billing admins can receive invoices."
-          />
-          <FaqItem
-            question="How do I contact support?"
-            answer="Use the Help section in-app or email support@example.com."
-          />
+          {rightColumn.map((item, index) => (
+            <FaqItem
+              key={index + mid}
+              question={item.question}
+              answer={item.answer}
+            />
+          ))}
         </div>
       </div>
     </div>

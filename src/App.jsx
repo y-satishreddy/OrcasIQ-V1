@@ -7,15 +7,13 @@ import Modules from './components/Modules/Modules.jsx';
 import WebForm from './components/WebForm/WebForm.jsx';
 import Carsedf from './components/Carsedf/Carsedf.jsx';
 import Faq from './components/FAQ/Faq.jsx';
-import Price from './components/Price/Price.jsx';
 import DataAnalytics from './Pages/Courses/DataAnalytics/DataAnalytics.jsx';
+
 function App() {
   return (
     <>
     <Navbar></Navbar>
-    {/* <Carsedf/> 
-    <Price/> 
-    <Faq/>  */}
+ 
     <DataAnalytics/>
         <Footer></Footer>
     </>
