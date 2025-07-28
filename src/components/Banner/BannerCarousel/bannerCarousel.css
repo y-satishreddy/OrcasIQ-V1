@@ -1,0 +1,73 @@
+.carousel-section {
+  position: relative;
+  overflow: hidden;
+  height: 70vh;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 0px;
+  padding-right: 0px;
+  box-sizing: border-box;
+}
+
+.carousel-item-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  transition: opacity 1s ease-in-out, z-index 1s;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  box-sizing: border-box;
+}
+
+/* Show the active one */
+.carousel-item-wrapper.show {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Style the components */
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 3rem;
+  color: white;
+}
+
+.blue {
+  background-color: steelblue;
+}
+
+.green {
+  background-color: seagreen;
+}
+
+@media (max-width: 600px) {
+  .carousel-section {
+    height: 80vh;
+    padding: 20px;
+  }
+}
+.carousel-section {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%); /* Start from right outside */
+  }
+  100% {
+    transform: translateX(0); /* End in normal position */
+  }
+}

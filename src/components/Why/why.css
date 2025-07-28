@@ -1,0 +1,29 @@
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.slide-fade-in {
+  animation: slideFadeIn 1s ease forwards;
+}
+
+.slide-fade-out {
+  animation: slideFadeOut 0.8s ease forwards;
+}

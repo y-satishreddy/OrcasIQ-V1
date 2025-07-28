@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 600px) {
+  .web-content-banner__large-quote {
+    font-size: 64px;
+    margin-left: 4px;
+  }
+  .web-content-banner_quote-btn {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+    gap: 10px;
+  }
+  .web-content-banner {
+    height: auto;
+  }
+}
+/* ===== Animation Style ===== */
+.web-content-banner__small-quote,
+.web-content-banner__large-quote {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeSlideIn 0.8s ease-out forwards;
+}
+
+/* ===== Staggered Order (each element loads after previous) ===== */
+.web-content-banner__small-quote {
+  animation-delay: 0.2s;
+}
+.web-content-banner__large-quote:nth-of-type(2) {
+  animation-delay: 0.3s;
+}
+.web-content-banner__large-quote:nth-of-type(3) {
+  animation-delay: 0.8s;
+}
+
+/* ===== Keyframes ===== */
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base Button Style */
+.btn {
+  color: white;
+  margin-bottom: 1.25rem;
+  margin-left: 0.5rem;
+  white-space: nowrap;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover Resize Effect */
+
+.web-content-banner_quote-btn .btn {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeSlideIn 0.8s ease-out forwards;
+  animation-delay: 0.2s;
+}
