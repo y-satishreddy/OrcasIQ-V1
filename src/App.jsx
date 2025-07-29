@@ -7,17 +7,25 @@ import Trainer from "./components/Trainer/Trainer";
 import Courses from "./components/Courses/Courses";
 import Events from "./components/Events/Events";
 import Why from "./components/Why/Why";
+import WebForm from "./components/WebForm/WebForm";
+import Modules from "./components/Modules/Modules";
+import Footer from "./components/Footer/Footer";
+import DataAnalytics from "./Pages/Courses/DataAnalytics/DataAnalytics";
 function App() {
   return (
     <>
-      <Navbar></Navbar>
-      <BannerContent />
+      {/* <Navbar></Navbar> */}
+      {/* <BannerContent />
       <BannerCarousel />
       <Trainer />
+      <Why />
       <Services />
       <Courses></Courses>
       <Events />
-      <Why />
+      <Modules />
+      <WebForm /> */}
+      <DataAnalytics />
+      <Footer />
     </>
   );
 }
