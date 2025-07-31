@@ -17,18 +17,21 @@ import Faq from "../../../components/Course/FAQ/Faq.jsx";
 import PriceSection from "../../../components/Course/Price/Price.jsx";
 import SalaryAnalysis from "../../../components/Course/SalaryAnalysis/SalaryAnalysis.jsx"; // Adjust the path as necessary
 import Tools from "../../../components/Course/Tools/Tools.jsx";
+import Layout from "../../../components/Layouts/Layout.jsx";
 // Assuming you have a CSS file for styling
 const DataAnalytics = () => {
   return (
     <>
-      <Banner data={bannerData} />
-      <CourseBenefits data={courseBenefitsData} />
-      <Tools data={toolsData} />
-      <Activities data={actvitiesData} />
-      <PriceSection data={priceData} />
-      <Certificate data={certificateData} />
-      <SalaryAnalysis data={salaryAnalysisData} />
-      <Faq data={faqData} />
+      <Layout>
+        <Banner data={bannerData} />
+        <CourseBenefits data={courseBenefitsData} />
+        <Tools data={toolsData} />
+        <Activities data={actvitiesData} />
+        <PriceSection data={priceData} />
+        <Certificate data={certificateData} />
+        <SalaryAnalysis data={salaryAnalysisData} />
+        <Faq data={faqData} />
+      </Layout>
     </>
   );
 };

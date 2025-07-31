@@ -25,13 +25,14 @@ const Navbar = () => {
 
   return (
     <>
+      {/* Navbar */}
       <nav
         className={`navbar fixed top-0 w-full z-50 transition-all duration-300 ${
           hasScrolled ? "shadow-navbar" : ""
         }`}
       >
         <div className="max-w-[100%] mx-auto flex justify-between items-center h-[70px] px-[5%]">
-          {/* Logo + Menu */}
+          {/* Logo + Desktop Menu */}
           <div className="flex items-center gap-8">
             <img src={Logo} alt="Logo" className="h-10" />
 
@@ -44,7 +45,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-          {/* Search + Contact */}
+          {/* Search + Contact (Desktop) */}
           <div className="hidden md:flex items-center gap-6">
             <div className="search-box">
               <input type="text" placeholder="Search here..." />
@@ -53,12 +54,15 @@ const Navbar = () => {
             <button className="contact-btn">Contact Us</button>
           </div>
 
-          {/* Hamburger */}
+          {/* Hamburger Icon (Mobile) */}
           <div className="md:hidden">
             <FaBars size={24} onClick={() => setMenuOpen(true)} />
           </div>
         </div>
       </nav>
+
+      {/* Spacer to prevent overlap */}
+      <div className="h-[70px]"></div>
 
       {/* Mobile Menu */}
       {menuOpen && (

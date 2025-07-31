@@ -13,14 +13,7 @@ const Card = ({ name, title, description, profileLink }) => {
       <h3 className="text-xl font-semibold">{name}</h3>
       <p className="text-[16px] font-medium text-gray-700">{title}</p>
       <p className="text-[14px] font-light text-gray-600">{description}</p>
-      <a
-        href={profileLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-[16px] font-light text-blue-900 hover:underline"
-      >
-        LinkedIn Profile
-      </a>
+      <p className="text-[14px] font-light text-gray-600">{profileLink}</p>
     </div>
   );
 };

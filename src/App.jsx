@@ -12,6 +12,7 @@ function App() {
     <>
       <Routes>
         <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/data-science" element={<DataScience />} />
         <Route path="/data-analytics" element={<DataAnalytics />} />
         <Route path="/digital-marketing" element={<DigitalMarketing />} />

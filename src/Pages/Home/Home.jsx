@@ -10,20 +10,21 @@ import Why from "../../components/Why/Why";
 import WebForm from "../../components/WebForm/WebForm";
 import Modules from "../../components/Modules/Modules";
 import Footer from "../../components/Footer/Footer";
+import Layout from "../../components/Layouts/Layout";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <BannerContent />
-      <BannerCarousel />
-      <Trainer />
-      <Why />
-      <Services />
-      <Courses></Courses>
-      <Events />
-      <Modules />
-      <WebForm />
-      <Footer />
+      <Layout>
+        <BannerContent />
+        <BannerCarousel />
+        <Trainer />
+        <Why />
+        <Services />
+        <Courses></Courses>
+        <Events />
+        <Modules />
+        <WebForm />
+      </Layout>
     </>
   );
 };

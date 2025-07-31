@@ -9,20 +9,20 @@ const trainers = [
     title: "Senior Data Scientist",
     description:
       "Expert in machine learning and AI with 8+ years of experience.",
-    profileLink: "https://linkedin.com/in/alicejohnson",
+    profileLink: "Trained over 800+ students",
   },
   {
     name: "Mark Thompson",
     title: "Cloud DevOps Engineer",
     description: "Certified AWS DevOps pro with a focus on CI/CD pipelines.",
-    profileLink: "https://linkedin.com/in/markthompson",
+    profileLink: "Trained over 900+ students",
   },
   {
     name: "Priya Verma",
     title: "Full Stack Developer",
     description:
       "Specializes in MERN stack and scalable frontend architecture.",
-    profileLink: "https://linkedin.com/in/priyaverma",
+    profileLink: "Trained over 950+ students",
   },
 ];
 

@@ -1,7 +1,7 @@
 import "./bannerContent.css";
 const BannerContent = () => {
   return (
-    <section className="h-[auto] w-[100%]  px-[5%] py-[2%] box-border web-content-banner mt-[70px]">
+    <section className="h-[auto] w-[100%]  px-[5%] py-[2%] box-border web-content-banner ">
       <p className="web-content-banner__small-quote text-black font-thin text-2xl pl-2 m-0">
         Unlock Your Potential With OrcasIQ.
       </p>
