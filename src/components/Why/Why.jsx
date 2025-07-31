@@ -53,13 +53,15 @@ const AboutOrcasIQ = () => {
           <div className="text-left">
             {!showMore ? (
               <>
-                <h2 className="text-3xl font-bold mb-2">WHY ORCAS IQ</h2>
+                <h2 className="text-3xl font-bold mb-2">
+                  Why Choose Orcas IQ?
+                </h2>
                 <h3 className="text-xl font-medium mb-4">
                   Revolutionizing Digital Learning
                 </h3>
                 <p className="text-gray-700 mb-6">
-                  OrcasIQ offers expert-led, practical training to build
-                  real-world skills and career confidence.
+                  Choosing Orcas IQ means investing in a smarter, career-focused
+                  learning journey. Here's what sets us apart:
                 </p>
                 <button
                   onClick={handleLearnMore}
@@ -71,26 +73,25 @@ const AboutOrcasIQ = () => {
             ) : (
               <>
                 <h2 className="text-3xl font-bold mb-4">About OrcasIQ</h2>
-                <p className="text-gray-800 text-lg mb-4">
-                  OrcasIQ is a next-generation digital learning platform
-                  designed to empower learners through personalized, expert-led
-                  instruction. Whether you're a student looking to enhance your
-                  skills, or a professional aiming for career growth, our
-                  practical training programs are crafted to deliver real-world
-                  outcomes.
-                </p>
-                <p className="text-gray-800 text-lg mb-4">
-                  With a focus on innovation, accessibility, and quality
-                  education, OrcasIQ is committed to shaping the future of
-                  learning by making it interactive, affordable, and globally
-                  relevant.
-                </p>
+
                 <p className="text-gray-800 text-lg mb-6">
-                  We are continuously adding more modules, features, and
-                  advanced training paths to meet the evolving demands of
-                  learners across the globe. Our mission is to bridge the gap
-                  between education and employability with actionable, practical
-                  learning.
+                  Expert-Curated Curriculum: Designed by industry practitioners,
+                  our content reflects the latest trends and real-world needs.
+                  <br />
+                  Hands-On Training: Every course is project-driven, ensuring
+                  you gain practical exposure and confidence to solve real
+                  problems.
+                  <br />
+                  Personalized Learning Experience: Whether you're starting out
+                  or already working, our flexible structure fits your goals and
+                  schedule.
+                  <br />
+                  Affordable Excellence: We make high-quality learning
+                  accessible without compromising on depth or delivery.
+                  <br />
+                  Ongoing Support & Mentorship: Our learners receive continuous
+                  guidance, feedback, and career support throughout their
+                  journey.
                 </p>
                 <button
                   onClick={handleBack}

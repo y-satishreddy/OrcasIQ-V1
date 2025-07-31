@@ -10,22 +10,22 @@ const TrainerContent = () => {
 
       <div className="space-y-4 text-justify leading-relaxed">
         <p>
-          OrcasIQ has completely reshaped the way I learn and apply new
-          knowledge. The instructors are not only highly qualified, but they
-          also have a deep understanding of how to make learning effective and
-          enjoyable. Every lesson is thoughtfully structured, filled with
-          real-life case studies, and focused on hands-on application. Even as a
-          working professional, I found the pace manageable and the content
-          incredibly relevant to industry standards.
-        </p>
-        <p>
-          What really stood out was the level of support from the teaching
-          staff. They were always available to clarify doubts, provide feedback,
-          and encourage further exploration. I went from being unsure about my
-          data and tech skills to feeling confident enough to apply them in
-          real-world projects. Thanks to the expert guidance at OrcasIQ, I now
-          feel empowered to take on greater responsibilities at work and
-          continue my learning journey with clarity and motivation.
+          At Orcas IQ, we offer a curated selection of high-demand, skill-driven
+          programs that open doors to exciting career opportunities:
+          <br />
+          Data Analytics: Master data tools, visualization techniques, and
+          business insights with real-time case studies.
+          <br />
+          Data Science: Learn Python, machine learning, and predictive modeling
+          to solve complex data challenges.
+          <br />
+          Full Stack Development: Gain end-to-end coding skills to build modern,
+          responsive web applications.
+          <br />
+          Digital Marketing: Get hands-on with SEO, social media, content
+          strategy, and performance marketing. All our courses are designed to
+          ensure learners gain not just knowledge, but also the confidence to
+          apply it in real-world scenarios.
         </p>
       </div>
     </div>

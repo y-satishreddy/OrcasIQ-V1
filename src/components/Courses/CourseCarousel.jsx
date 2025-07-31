@@ -3,44 +3,46 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-
+import DataAnalyticsImage from "../../assets/Course/DataAnalytics.jpg";
+import DataScience from "../../assets/Course/DataSciecne.jpg";
+import Devops from "../../assets/Course/Devops.jpg";
+import DigitalMarketing from "../../assets/Course/DigitalMarketing.jpg";
+import FullStack from "../../assets/Course/FullStack.png";
 const courses = [
   {
     id: 1,
     title: "Data Analytics",
     description:
-      "Gain expertise in analyzing data to uncover trends and make smart business decisions. Learn tools like Excel, Python, and data visualization platforms.",
-    image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg",
+      "Master tools like Excel, SQL, and Power BI to analyze data effectively. Learn how to uncover business trends, make data-driven decisions, and present insights with clarity.",
+    image: DataAnalyticsImage,
   },
   {
     id: 2,
     title: "Data Science",
     description:
-      "Gain expertise in analyzing data to uncover trends and make smart business decisions. Learn tools like Excel, Python, and data visualization platforms.",
-    image:
-      "https://images.pexels.com/photos/11035455/pexels-photo-11035455.jpeg",
+      "Explore machine learning, Python, and real-world datasets. Build models, clean data, and visualize outcomes to discover insights and solve modern business problems.",
+    image: DataScience,
   },
   {
     id: 3,
     title: "Java Full Stack",
     description:
-      "Gain expertise in analyzing data to uncover trends and make smart business decisions. Learn tools like Excel, Python, and data visualization platforms.",
-    image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg",
+      "Learn to build full-stack web apps using Java, Spring Boot, and React. Master frontend and backend technologies, deployment, and APIs for end-to-end development.",
+    image: FullStack,
   },
   {
     id: 4,
     title: "Digital Marketing",
     description:
-      "Gain expertise in analyzing data to uncover trends and make smart business decisions. Learn tools like Excel, Python, and data visualization platforms.",
-    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+      "Develop expertise in SEO, Google Ads, content marketing, and analytics. Plan and execute campaigns that grow brand visibility and generate business leads online.",
+    image: DigitalMarketing,
   },
   {
     id: 5,
-    title: "UI/UX Design",
+    title: "DevOps",
     description:
-      "Gain expertise in analyzing data to uncover trends and make smart business decisions. Learn tools like Excel, Python, and data visualization platforms.",
-    image:
-      "https://images.pexels.com/photos/11035375/pexels-photo-11035375.jpeg",
+      "Gain practical skills in CI/CD, Docker, Kubernetes, and cloud platforms. Automate deployments, monitor infrastructure, and improve software delivery pipelines.",
+    image: Devops,
   },
 ];
 
@@ -123,7 +125,7 @@ const CoursesCarousel = () => {
               <img
                 src={course.image}
                 alt={course.title}
-                className="w-full h-44 object-cover"
+                className="w-full h-44 object-cover bg-center"
               />
               <div className="p-4 text-left">
                 <h3 className="text-lg font-bold mb-1">{course.title}</h3>
