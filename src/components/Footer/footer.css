@@ -1,0 +1,12 @@
+.footer-link {
+  display: inline-block;
+  padding: 4px 0;
+  font-weight: normal;
+  color: white;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  color: #a3d8ff; /* light blue or any hover color you prefer */
+}
