@@ -55,15 +55,14 @@ const LiveEventsSection = () => {
       <div className="mb-10">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Live Events</h2>
         <p className="text-gray-700 text-justify leading-relaxed">
-          Our live events bring together industry experts and passionate
-          learners to explore the latest trends and skills. Each session is
-          designed to deliver practical knowledge, inspiration, and real-time
-          interaction. Join us to grow, connect, and take your learning
-          experience to the next level. Our live events bring together industry
-          experts and passionate learners to explore the latest trends and
-          skills. Each session is designed to deliver practical knowledge,
-          inspiration, and real-time interaction. Join us to grow, connect, and
-          take your learning experience to the next level.
+          Our live events are designed to inspire, engage, and educate learners
+          through real-time interactions with industry experts. From workshops
+          and webinars to bootcamps and Q&A sessions, each event delivers
+          practical insights and hands-on exposure. Participants gain the
+          opportunity to clarify doubts, explore real-world applications, and
+          connect with peers and mentors. These events add immense value to the
+          learning journey, making concepts clearer and career goals more
+          achievable.
         </p>
       </div>
 
