@@ -15,8 +15,8 @@ import LinkedInProfileBuilding from "../../../assets/Data-Science/Activities/Lin
 import MockInterviews from "../../../assets/Data-Science/Activities/MockInterviews.png";
 import SoftSkills from "../../../assets/Data-Science/Activities/SoftSkills.png";
 import ResumeBuilding from "../../../assets/Data-Science/Activities/ResumeBuilding.png";
-import ActivitiesImage from "../../../assets/Data-Science/Activities/Activties.png";
-import DataAnalyticsCertificate from "../../../assets/Data-Science/DataAnalyticsCertificate.jpg";
+import ActivitiesImage from "../../../assets/Data-Analytics/Activities/Activities.jpg";
+import DataAnalyticsCertificate from "../../../assets/Data-Science/Certificate/DataScience.png";
 import HiringCompanies from "../../../assets/Data-Science/SalaryAndCompanies/HiringCompanies.png";
 import DAGraph from "../../../assets/Data-Science/SalaryAndCompanies/DAGraph.png";
 
@@ -29,106 +29,106 @@ export const bannerData = {
   description2:
     "Includes Capstone Projects, Research Applications, and Career Support.",
   buttonText: "Enroll Now",
-  calendarInfo: "Next batch starts on 10th September 2025",
-  globeInfo: "Available in Online & Offline Modes",
+  calendarInfo: "Coming Soon",
+  globeInfo: "Available in Online Mode",
   imageUrl: analyticsGirlImage,
 };
 
 export const courseBenefitsData = {
   sectionTitle: "What You’ll Gain",
   sectionDescription:
-    "Advance your career with expert guidance, cutting-edge tools, and real-world project experience in data science and AI. Gain confidence to lead data-driven solutions in any industry.",
+    "Master data science with practical skills, expert mentorship, and career-focused training. Build confidence to analyze data, create AI solutions, and step into industry roles with impact.",
   benefits: [
     {
       icon: portfolio,
-      title: "Project-Based Learning",
+      title: "Hands-On Data Projects",
       description:
-        "Work on machine learning and AI-based projects to build a solid portfolio.",
+        "Work on real-world datasets and case studies to build a strong, job-ready portfolio.",
     },
     {
       icon: DoubtClearingSessions,
-      title: "Live Mentorship Sessions",
+      title: "Expert Mentorship Sessions",
       description:
-        "Get your queries answered in real-time with mentor-led doubt-clearing sessions.",
+        "Interact directly with mentors in live classes and get your doubts cleared instantly.",
     },
     {
       icon: programming,
-      title: "Applied Programming Practice",
+      title: "Applied Python & SQL Practice",
       description:
-        "Reinforce concepts with daily practice and hands-on coding tasks.",
+        "Strengthen coding skills with structured exercises and daily problem-solving tasks.",
     },
     {
       icon: IndustryOrientedCurriculum,
-      title: "Industry-Aligned Syllabus",
+      title: "Industry-Focused Curriculum",
       description:
-        "Stay ahead with a curriculum designed in collaboration with industry experts.",
+        "Learn topics curated with input from data scientists and leading tech companies.",
     },
     {
       icon: CourseCompletionCertificate,
-      title: "Certification on Completion",
+      title: "Recognized Certification",
       description:
-        "Receive a globally accepted certificate to validate your skills.",
+        "Earn a completion certificate that validates your data science expertise globally.",
     },
     {
       icon: CapstoneProject,
-      title: "Guided Capstone Projects",
+      title: "End-to-End Capstone Project",
       description:
-        "Solve real-world problems with end-to-end machine learning pipelines.",
+        "Design complete ML pipelines, from data cleaning to model deployment, step by step.",
     },
     {
       icon: JobTraining,
-      title: "Career Preparation Modules",
+      title: "Career Readiness Training",
       description:
-        "Simulate real interview and job environments to prepare confidently.",
+        "Prepare with resume workshops, mock interviews, and real hiring simulations.",
     },
     {
       icon: RealWorldTraining,
-      title: "Professional Networking",
+      title: "Professional Data Community",
       description:
-        "Connect with peers, mentors, and professionals for long-term career growth.",
+        "Network with peers, mentors, and industry experts to unlock growth opportunities.",
     },
   ],
 };
-
 export const toolsData = {
   sectionTitle: "Master In-Demand Data Science Tools",
   sectionDescription:
-    "This Data Science program equips you with the top tools and frameworks used by professionals, from Python and SQL to advanced ML libraries. Prepare to work on complex data challenges across industries.",
+    "This Data Science program trains you on the essential tools and frameworks used by professionals. From Excel and SQL to Python, Power BI, and advanced ML libraries, you will gain practical expertise to solve real-world data challenges across industries.",
   leftCards: [
     {
       icon: ExcelIcon,
       title: "Excel",
       description:
-        "Use Excel for data cleaning, exploratory analysis, and preprocessing.",
+        "Use Excel to clean, transform, and analyze datasets while creating quick summaries and reports.",
     },
     {
       icon: SQLIcon,
       title: "SQL",
       description:
-        "Extract and manipulate structured data using powerful SQL queries.",
+        "Query and manipulate structured data using SQL to extract insights and support business decisions.",
     },
     {
       icon: PowerBIIcon,
       title: "Power BI",
       description:
-        "Create impactful dashboards to visualize and report complex datasets.",
+        "Design interactive dashboards and visual reports to communicate patterns and key performance metrics.",
     },
     {
       icon: PythonIcon,
       title: "Python",
       description:
-        "Leverage Python for machine learning, deep learning, and data science automation.",
+        "Apply Python for analysis, visualization, and building machine learning and AI-driven applications.",
     },
   ],
   rightInfo: {
-    title: "Core Libraries and ML Tools You’ll Use",
+    title: "Core Frameworks Covered",
     description:
-      "Gain practical experience using Scikit-learn, Pandas, NumPy, TensorFlow, and Seaborn. These tools help you analyze, model, and visualize data effectively.",
+      "Along with core tools, you will gain hands-on experience with specialized libraries and frameworks. These resources help you explore data, build predictive models, and create professional data solutions.",
     points: [
-      "Build predictive models using Scikit-learn and TensorFlow.",
-      "Use Pandas and NumPy to process and transform large datasets efficiently.",
-      "Visualize patterns with Seaborn and Matplotlib.",
-      "Apply data storytelling techniques through dashboards and reports.",
+      "Manipulate and process datasets with Pandas and NumPy, then validate results using core Statistics concepts.",
+      "Visualize complex patterns through Matplotlib, Seaborn, and Plotly to create professional-grade visual stories.",
+      "Develop machine learning workflows with Scikit-learn, applying both classical and advanced ML techniques.",
+      "Train deep learning networks using TensorFlow and Keras for scalable AI-driven applications.",
+      "Work interactively in Jupyter Notebook, applying Calculus and ML principles to optimize real-world solutions.",
     ],
   },
 };
@@ -189,7 +189,6 @@ export const certificateData = {
     "Certification upon successful completion",
   ],
 };
-
 export const priceData = {
   title: "Choose Your Learning Format",
   subtitle:
@@ -208,6 +207,13 @@ export const priceData = {
         "Certificate on completion",
         "EMI available",
       ],
+      emi: {
+        available: true,
+        options: [
+          { duration: "3 months", amount: "₹5,000/month" },
+          { duration: "6 months", amount: "₹2,500/month" },
+        ],
+      },
     },
     {
       title: "Live Sessions",
@@ -222,6 +228,13 @@ export const priceData = {
         "Recordings + chat support",
         "EMI available",
       ],
+      emi: {
+        available: true,
+        options: [
+          { duration: "3 months", amount: "₹10,000/month" },
+          { duration: "6 months", amount: "₹5,000/month" },
+        ],
+      },
     },
     {
       title: "Hybrid Plus",
@@ -237,10 +250,16 @@ export const priceData = {
         "Interview prep sessions",
         "EMI available",
       ],
+      emi: {
+        available: true,
+        options: [
+          { duration: "3 months", amount: "₹13,333/month" },
+          { duration: "6 months", amount: "₹6,666/month" },
+        ],
+      },
     },
   ],
 };
-
 export const faqData = [
   {
     question: "What is Data Science and why should I learn it?",

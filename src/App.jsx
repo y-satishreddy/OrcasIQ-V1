@@ -4,7 +4,7 @@ import Home from "./Pages/Home/Home";
 import JavaFullstack from "./Pages/Courses/JavaFullstack/JavaFullstack.jsx";
 import Devops from "./Pages/Courses/Devops/Devops.jsx";
 import DigitalMarketing from "./Pages/Courses/DigitalMarketing/DigitalMarketing.jsx";
-import DataAnalytics from "./Pages/Courses/DataScience/DataScience";
+import DataAnalytics from "./Pages/Courses/DataAnalytics/DataAnalytics.jsx";
 import CourseForm from "./Pages/CourseForm/CourseForm.jsx";
 import ModuleForm from "./Pages/CourseForm/CourseForm.jsx";
 import "./App.css";

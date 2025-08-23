@@ -22,16 +22,20 @@ import DAGraph from "../../../assets/Devops/SalaryAndCompanies/DAGraph.png";
 export const bannerData = {
   linkText: "Home",
   breadcrumbText: "Courses",
-  heading: "Become a Certified DevOps Engineer with Real Tools & Deployments.",
+  heading:
+    "Become a Certified AWS DevOps Engineer with Hands-On Projects & Real-World Deployments",
   description1:
-    "Master Linux, Git, Docker, Jenkins, Kubernetes, AWS, and CI/CD in our industry-focused training.",
+    "Gain expertise in Linux, Git, Docker, Jenkins, Kubernetes, AWS, and CI/CD pipelines through structured, industry-driven training. Build the skills top companies demand for modern AWS DevOps roles.",
   description2:
-    "Includes Capstone Projects, Internship Support, and Full Placement Assistance.",
+    "Our program includes live projects, guided capstone assignments, internship opportunities, and More.",
+  description3:
+    "Learn directly from industry professionals, practice on enterprise-grade tools, and confidently step into high-growth DevOps engineering careers.",
   buttonText: "Enroll Now",
-  calendarInfo: "Next batch starts on 15th September 2025",
-  globeInfo: "Available in Online & Offline Modes",
+  calendarInfo: "Coming Soon",
+  globeInfo: "Available in Online Mode",
   imageUrl: analyticsGirlImage,
 };
+
 
 export const courseBenefitsData = {
   sectionTitle: "What You’ll Gain",
@@ -87,49 +91,56 @@ export const courseBenefitsData = {
         "Engage with DevOps professionals, alumni, and recruiters to accelerate your career path.",
     },
   ],
-};
-export const toolsData = {
+};export const toolsData = {
   sectionTitle: "Technologies You’ll Master",
   sectionDescription:
-    "Develop deep expertise in essential DevOps tools and practices adopted by leading IT organizations.",
+    "Develop deep expertise in the most in-demand DevOps tools and practices adopted by leading IT organizations. Learn to automate, scale, and secure enterprise-grade deployments.",
+
   leftCards: [
     {
       icon: ExcelIcon,
       title: "Linux & Shell Scripting",
       description:
-        "Manage server configurations and automate tasks efficiently.",
+        "Gain hands-on skills in Linux commands, system administration, and shell scripting to automate repetitive tasks and manage servers efficiently.",
     },
     {
       icon: SQLIcon,
       title: "Docker & Kubernetes",
       description:
-        "Containerize applications and orchestrate multi-container deployments with K8s.",
+        "Containerize applications with Docker and orchestrate multi-container workloads using Kubernetes for highly available, scalable deployments.",
     },
     {
       icon: PowerBIIcon,
       title: "CI/CD with Jenkins",
       description:
-        "Automate build, test, and deployment pipelines using Jenkins and GitHub Actions.",
+        "Automate the build, test, and deployment lifecycle using Jenkins pipelines and GitHub Actions to ensure faster and more reliable releases.",
     },
     {
       icon: PythonIcon,
       title: "AWS & Terraform",
       description:
-        "Deploy and manage cloud infrastructure with Terraform scripts and AWS services.",
+        "Design, deploy, and manage cloud infrastructure with Terraform scripts and AWS services, enabling Infrastructure as Code (IaC) practices.",
     },
   ],
+
   rightInfo: {
     title: "DevOps Workflow & Deployment",
     description:
-      "Simulate enterprise DevOps cycles using Git, GitHub, Maven, Jenkins, Docker, and cloud platforms.",
+      "Simulate complete enterprise DevOps lifecycles with tools for version control, CI/CD, monitoring, configuration management, and cloud deployment.",
+
     points: [
-      "Version control with Git and GitHub.",
-      "CI/CD automation using Jenkins and GitHub Actions.",
-      "Infrastructure as Code using Terraform.",
-      "Cloud deployment to AWS, Azure, and GCP.",
-    ],
+  "Source code management and collaboration with Git & GitHub.",
+  "Automated builds and CI/CD pipelines using Maven, Jenkins, Github actions and GitLab",
+  "Containerization with Docker and orchestration using Kubernetes.",
+  "Infrastructure as Code with Terraform and configuration automation using Ansible.",
+  "Cloud deployment and scaling on AWS/Azure with DevSecOps practices.",
+  "Monitoring and logging with Prometheus, Grafana, and ELK stack.",
+  "Agile project tracking and workflows with Jira."
+],
+
   },
 };
+
 export const actvitiesData = {
   title: "Career Readiness & Placement Training",
   items: [
@@ -172,18 +183,18 @@ export const actvitiesData = {
 };
 export const certificateData = {
   image: DataAnalyticsCertificate,
-  heading: "Why Choose Orcas IQ’s DevOps Certification?",
+  heading: "Why Choose Orcas IQ’s AWS DevOps Certification?",
   description:
     "Get trained in DevOps tools and practices that companies demand. From automation to monitoring, be job-ready from day one.",
-  bulletPoints: [
-    "Linux, Docker, Kubernetes & AWS expertise",
-    "Build & release automation using Jenkins",
-    "IaC with Terraform & configuration management",
-    "1-on-1 project reviews with DevOps engineers",
-    "Mock interviews and resume building",
-    "Hands-on deployment scenarios",
-    "Industry-recognized certification & placement support",
-  ],
+ bulletPoints: [
+  "Hands-on expertise with Linux, Docker, Kubernetes, and AWS.",
+  "Automated build and release pipelines using Jenkins.",
+  "IaC with Terraform and configuration management via Ansible.",
+  "Real-world deployment practice across cloud platforms.",
+  "Certification support with career guidance and placement.",
+  "1-on-1 mentorship from industry DevOps engineers.",
+  "Mock interviews and resume-building assistance."
+],
 };
 export const priceData = {
   title: "Flexible Learning Options",
@@ -208,7 +219,7 @@ export const priceData = {
       title: "Live Sessions",
       description:
         "Interactive live classes with real-time tool setup and deployment practice.",
-      price: "54,999 / 30,999",
+      price: "54,999 / 25,999",
       buttonText: "Enroll Now",
       bgColor: "bg-green-100",
       features: [
@@ -223,7 +234,7 @@ export const priceData = {
       title: "Hybrid Plus",
       description:
         "Access both recorded and live content with career assistance and certifications.",
-      price: "64,999 / 39,999",
+      price: "64,999 / 30,999",
       buttonText: "Enroll Now",
       bgColor: "bg-yellow-100",
       features: [

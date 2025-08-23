@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // ✅ import
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaChevronRight, FaRegCalendarAlt, FaGlobe } from "react-icons/fa";
-import GirlImage from "../../../assets/analytics.png"
+
 const DynamicBanner = ({ data }) => {
   const {
     linkText,
@@ -16,22 +17,29 @@ const DynamicBanner = ({ data }) => {
     imageUrl,
   } = data;
 
+  const navigate = useNavigate(); // ✅ hook
+
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
 
+  // ✅ Fallback image if no imageUrl is provided
+  const fallbackImage =
+    "https://via.placeholder.com/400x300.png?text=Banner+Image";
+
   return (
-    <div className="w-full bg-[#0A3A5E] py-[1%] px-[5%] courts-banner-font-family overflow-x-hidden">
+    <div className="w-full bg-gradient-to-r from-[#0A3A5E] to-black py-[1%] px-[5%] courts-banner-font-family overflow-x-hidden">
       <div className="h-auto w-full flex justify-between items-center flex-wrap md:flex-nowrap">
         {/* Text Section */}
         <div className="w-full md:w-[70%] banner-content" data-aos="fade-right">
           <div>
-            <a
-              href="#"
+            {/* ✅ Home navigation */}
+            <button
+              onClick={() => navigate("/")}
               className="text-white hover:text-[#2EC4B6] underline-animate text-base"
             >
               {linkText}
-            </a>{" "}
+            </button>{" "}
             <FaChevronRight size={10} className="inline text-white" />
             <p className="inline text-white">{breadcrumbText}</p>
           </div>
@@ -46,7 +54,9 @@ const DynamicBanner = ({ data }) => {
             <p className="text-white text-base">{description2}</p>
           </div>
 
+          {/* ✅ Enroll navigation */}
           <button
+            onClick={() => navigate("/contact-course-form")}
             className="text-[#0A3A5E] text-base font-medium rounded bg-white py-2 px-4 mt-2
             active:scale-95 transition-all duration-100 ease-in-out"
           >
@@ -65,13 +75,13 @@ const DynamicBanner = ({ data }) => {
           </div>
         </div>
 
-        {/* Image Section */}
+        {/* Image Section (Hidden on Mobile) */}
         <div
-          className="w-full md:w-[30%] mt-6 md:mt-0 banner-image"
+          className="hidden md:block w-full md:w-[30%] mt-6 md:mt-0 banner-image"
           data-aos="fade-left"
         >
           <img
-            src={GirlImage}
+            src={imageUrl || fallbackImage}
             alt="Banner Visual"
             className="w-full h-auto rounded-lg"
           />
