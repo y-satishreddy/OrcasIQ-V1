@@ -83,20 +83,20 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
           <p className="mb-1">
             <a href="tel:+919390526524" className="hover:underline">
-              +91 9390526524
+              +91 6305829214
             </a>
           </p>
           <p className="mb-3">
             <a
-              href="mailto:yettapusatishreddy@gmail.com"
+              href="mailto:orcasiq@gmail.com"
               className="hover:underline"
             >
-              yettapusatishreddy@gmail.com
+              orcasiq@gmail.com
             </a>
           </p>
           <div className="flex gap-4 text-2xl mt-3">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/orcasiq_learningsimplified/"
               target="_blank"
               rel="noreferrer"
               className="hover:text-pink-500 hover:scale-110 transition"
@@ -104,7 +104,7 @@ const Footer = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://wa.me/919390526524"
+              href="https://wa.me/916305829214"
               target="_blank"
               rel="noreferrer"
               className="hover:text-green-500 hover:scale-110 transition"
@@ -112,7 +112,7 @@ const Footer = () => {
               <FaWhatsapp />
             </a>
             <a
-              href="https://linkedin.com/in/satishreddy"
+              href="https://www.linkedin.com/company/orcas-iq"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-500 hover:scale-110 transition"
@@ -182,7 +182,7 @@ const Footer = () => {
       >
         © {new Date().getFullYear()} Orcas IQ | Developed by{" "}
         <a
-          href="https://your-portfolio-link.com"
+          href="https://ysatishreddy.netlify.app"
           className="underline hover:text-white"
           target="_blank"
           rel="noreferrer"

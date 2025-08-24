@@ -1,4 +1,4 @@
-import analyticsGirlImage from "../../../assets/Devops/Banner.png";
+import analyticsGirlImage from "../../../assets/Devops/BannerNew.png";
 import CapstoneProject from "../../../assets/Devops/Benefits/CapstoneProject.png";
 import CourseCompletionCertificate from "../../../assets/Devops/Benefits/CourseCompletionCertificate.png";
 import DoubtClearingSessions from "../../../assets/Devops/Benefits/DoubtClearingSessions.png";
@@ -7,15 +7,15 @@ import JobTraining from "../../../assets/Devops/Benefits/JobTraining.png";
 import portfolio from "../../../assets/Devops/Benefits/portfolio.png";
 import programming from "../../../assets/Devops/Benefits/programming.png";
 import RealWorldTraining from "../../../assets/Devops/Benefits/RealWorldTraining.png";
-import PythonIcon from "../../../assets/Devops/Tools/Python.png";
-import SQLIcon from "../../../assets/Devops/Tools/SQL.png";
-import ExcelIcon from "../../../assets/Devops/Tools/Excel.png";
-import PowerBIIcon from "../../../assets/Devops/Tools/PowerBi.png";
+import Linux from "../../../assets/Devops/Tools/Linux.png";
+import docker from "../../../assets/Devops/Tools/docker.png";
+import AWS from "../../../assets/Devops/Tools/AWS.png";
+import CICD from "../../../assets/Devops/Tools/CICD.png";
 import LinkedInProfileBuilding from "../../../assets/Devops/Activities/LinkedInProfileBuilding.png";
 import MockInterviews from "../../../assets/Devops/Activities/MockInterviews.png";
 import SoftSkills from "../../../assets/Devops/Activities/SoftSkills.png";
 import ResumeBuilding from "../../../assets/Devops/Activities/ResumeBuilding.png";
-import ActivitiesImage from "../../../assets/Devops/Activities/Activties.png";
+import ActivitiesImage from "../../../assets/Devops/Activities/Activities.jpg";
 import DataAnalyticsCertificate from "../../../assets/Devops/DataAnalyticsCertificate.jpg";
 import HiringCompanies from "../../../assets/Devops/SalaryAndCompanies/HiringCompanies.png";
 import DAGraph from "../../../assets/Devops/SalaryAndCompanies/DAGraph.png";
@@ -98,25 +98,25 @@ export const courseBenefitsData = {
 
   leftCards: [
     {
-      icon: ExcelIcon,
+      icon: Linux,
       title: "Linux & Shell Scripting",
       description:
         "Gain hands-on skills in Linux commands, system administration, and shell scripting to automate repetitive tasks and manage servers efficiently.",
     },
     {
-      icon: SQLIcon,
+      icon: docker,
       title: "Docker & Kubernetes",
       description:
         "Containerize applications with Docker and orchestrate multi-container workloads using Kubernetes for highly available, scalable deployments.",
     },
     {
-      icon: PowerBIIcon,
+      icon: CICD,
       title: "CI/CD with Jenkins",
       description:
         "Automate the build, test, and deployment lifecycle using Jenkins pipelines and GitHub Actions to ensure faster and more reliable releases.",
     },
     {
-      icon: PythonIcon,
+      icon: AWS,
       title: "AWS & Terraform",
       description:
         "Design, deploy, and manage cloud infrastructure with Terraform scripts and AWS services, enabling Infrastructure as Code (IaC) practices.",

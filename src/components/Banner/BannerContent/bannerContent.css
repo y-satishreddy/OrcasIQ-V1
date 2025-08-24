@@ -23,7 +23,7 @@
   opacity: 0;
   transform: translateY(-30px);
   animation: fadeSlideIn 0.8s ease-out forwards;
-  font-size: 200 !important;
+
 }
 
 /* ===== Staggered Order (each element loads after previous) ===== */

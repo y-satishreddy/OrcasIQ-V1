@@ -1,4 +1,4 @@
-import analyticsGirlImage from "../../../assets/DigitalMarketing/Banner.png";
+import analyticsGirlImage from "../../../assets/Analytics.png";
 import CapstoneProject from "../../../assets/DigitalMarketing/Benefits/CapstoneProject.png";
 import CourseCompletionCertificate from "../../../assets/DigitalMarketing/Benefits/CourseCompletionCertificate.png";
 import DoubtClearingSessions from "../../../assets/DigitalMarketing/Benefits/DoubtClearingSessions.png";
@@ -7,15 +7,15 @@ import JobTraining from "../../../assets/DigitalMarketing/Benefits/JobTraining.p
 import portfolio from "../../../assets/DigitalMarketing/Benefits/portfolio.png";
 import programming from "../../../assets/DigitalMarketing/Benefits/programming.png";
 import RealWorldTraining from "../../../assets/DigitalMarketing/Benefits/RealWorldTraining.png";
-import PythonIcon from "../../../assets/DigitalMarketing/Tools/Python.png";
-import SQLIcon from "../../../assets/DigitalMarketing/Tools/SQL.png";
-import ExcelIcon from "../../../assets/DigitalMarketing/Tools/Excel.png";
-import PowerBIIcon from "../../../assets/DigitalMarketing/Tools/PowerBi.png";
+import SEO from "../../../assets/DigitalMarketing/Tools/SEO.png";
+import ADS from "../../../assets/DigitalMarketing/Tools/ADS.png";
+import Analytics from "../../../assets/DigitalMarketing/Tools/Analytics.png";
+import Email from "../../../assets/DigitalMarketing/Tools/Email.png";
 import LinkedInProfileBuilding from "../../../assets/DigitalMarketing/Activities/LinkedInProfileBuilding.png";
 import MockInterviews from "../../../assets/DigitalMarketing/Activities/MockInterviews.png";
 import SoftSkills from "../../../assets/DigitalMarketing/Activities/SoftSkills.png";
 import ResumeBuilding from "../../../assets/DigitalMarketing/Activities/ResumeBuilding.png";
-import ActivitiesImage from "../../../assets/DigitalMarketing/Activities/Activties.png";
+import ActivitiesImage from "../../../assets/DigitalMarketing/Activities/Activities.jpg";
 import DataAnalyticsCertificate from "../../../assets/DigitalMarketing/DataAnalyticsCertificate.jpg";
 import HiringCompanies from "../../../assets/DigitalMarketing/SalaryAndCompanies/HiringCompanies.png";
 import DAGraph from "../../../assets/DigitalMarketing/SalaryAndCompanies/DAGraph.png";
@@ -29,8 +29,8 @@ export const bannerData = {
   description2:
     "Includes Capstone Projects, Internship Support, and Full Placement Assistance.",
   buttonText: "Enroll Now",
-  calendarInfo: "Next batch starts on 15th September 2025",
-  globeInfo: "Available in Online & Offline Modes",
+  calendarInfo: "Coming Soon",
+  globeInfo: "Available in Online Mode",
   imageUrl: analyticsGirlImage,
 };
 
@@ -89,46 +89,47 @@ export const courseBenefitsData = {
     },
   ],
 };
-
 export const toolsData = {
   sectionTitle: "Tools & Platforms You’ll Master",
   sectionDescription:
-    "Become skilled with top platforms and tools used by digital marketers across industries.",
+    "Gain hands-on expertise with the most in-demand digital marketing tools. These platforms are essential for building, analyzing, and optimizing successful campaigns across different industries.",
   leftCards: [
     {
-      icon: ExcelIcon,
+      icon: SEO,
       title: "SEO & SEM Tools",
       description:
-        "Master Google Search Console, Ahrefs, SEMrush, and Ubersuggest.",
+        "Develop strong command over tools like Google Search Console, Ahrefs, SEMrush, and Ubersuggest to perform keyword research, analyze competitors, and track site performance for higher visibility.",
     },
     {
-      icon: SQLIcon,
+      icon: ADS,
       title: "Ad Platforms",
       description:
-        "Launch and manage ad campaigns using Google Ads, Meta (Facebook/Instagram) Ads, and LinkedIn Ads.",
+        "Learn to plan, launch, and manage paid ad campaigns effectively using Google Ads, Meta (Facebook & Instagram) Ads, and LinkedIn Ads to maximize reach, engagement, and conversions.",
     },
     {
-      icon: PowerBIIcon,
+      icon: Analytics,
       title: "Analytics & Reporting",
       description:
-        "Use Google Analytics, Tag Manager, and Data Studio to measure performance.",
+        "Track and measure marketing success using Google Analytics, Tag Manager, and Data Studio. Gain the skills to interpret data, build dashboards, and make data-driven marketing decisions.",
     },
     {
-      icon: PythonIcon,
+      icon: Email,
       title: "Email & Automation",
       description:
-        "Use Mailchimp, HubSpot, and automation flows to drive engagement and conversions.",
+        "Master platforms like Mailchimp and HubSpot to create automated workflows, nurture leads, and improve engagement through personalized and timely email marketing campaigns.",
     },
   ],
   rightInfo: {
     title: "Digital Campaign Execution & Strategy",
     description:
-      "Execute full marketing funnels including content, acquisition, retargeting, and conversion.",
+      "Go beyond theory and learn how to execute marketing strategies that deliver results. From setting up campaigns to optimizing every step of the funnel, you’ll gain practical skills to drive measurable growth.",
     points: [
-      "Use Google & Meta Ads for reach and conversions.",
-      "Track user behavior via Analytics and heatmaps.",
-      "Optimize SEO for websites and content.",
-      "Run email & automation workflows.",
+      "Plan and launch digital campaigns using Google & Meta Ads for maximum visibility and conversions.",
+      "Track user behavior with tools like Analytics, heatmaps, and advanced reporting dashboards.",
+      "Improve website and content performance with SEO optimization and continuous testing.",
+      "Implement automated email workflows and nurturing campaigns to retain and convert leads.",
+      "Leverage A/B testing and audience segmentation to refine messaging and improve campaign ROI.",
+      "Build full-funnel strategies that connect content, acquisition, retargeting, and final conversions.",
     ],
   },
 };
