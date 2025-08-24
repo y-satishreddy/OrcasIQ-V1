@@ -23,7 +23,10 @@
   opacity: 0;
   transform: translateY(-30px);
   animation: fadeSlideIn 0.8s ease-out forwards;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 }
 
 /* ===== Staggered Order (each element loads after previous) ===== */
@@ -63,4 +66,8 @@
   transform: translateY(-10px);
   animation: fadeSlideIn 0.8s ease-out forwards;
   animation-delay: 0.2s;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f

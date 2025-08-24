@@ -11,16 +11,23 @@ import WebForm from "../../components/WebForm/WebForm";
 import Modules from "../../components/Modules/Modules";
 import Footer from "../../components/Footer/Footer";
 import Layout from "../../components/Layouts/Layout";
+<<<<<<< HEAD
 
 const Home = () => {
   return (
     <>
       <Navbar />
 
+=======
+const Home = () => {
+  return (
+    <>
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
       <Layout>
         <BannerContent />
         <BannerCarousel />
         <Trainer />
+<<<<<<< HEAD
           
         <Why />
                 
@@ -44,6 +51,14 @@ const Home = () => {
         <section id="contact" className="scroll-offset">
           <WebForm />
         </section>
+=======
+        <Why />
+        <Services />
+        <Courses></Courses>
+        <Events />
+        <Modules />
+        <WebForm />
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
       </Layout>
     </>
   );

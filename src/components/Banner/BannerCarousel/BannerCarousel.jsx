@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useRef, useState } from "react";
 import CarouselComponentOne from "../CarouselComponentOne/CarouselComponentOne";
 import CarouselComponentTwo from "../CarouselComponentTwo/CarouselComponentTwo";
@@ -105,6 +106,32 @@ const BannerCarousel = () => {
             }`}
           />
         ))}
+=======
+import CarouselComponentTwo from "../CarouselComponentTwo/CarouselComponentTwo";
+import CarouselComponentOne from "../CarouselComponentOne/CarouselComponentOne";
+import { useEffect, useState } from "react";
+import "./bannerCarousel.css";
+const BannerCarousel = () => {
+  let [activeIndex, setActiveIndex] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prevIndex) => (prevIndex === 0 ? 1 : 0));
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="carousel-section">
+      <div
+        className={`carousel-item-wrapper ${activeIndex === 0 ? "show" : ""}`}
+      >
+        <CarouselComponentOne />
+      </div>
+      <div
+        className={`carousel-item-wrapper ${activeIndex === 1 ? "show" : ""}`}
+      >
+        <CarouselComponentTwo />
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
       </div>
     </div>
   );

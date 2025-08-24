@@ -15,8 +15,13 @@ import LinkedInProfileBuilding from "../../../assets/Data-Science/Activities/Lin
 import MockInterviews from "../../../assets/Data-Science/Activities/MockInterviews.png";
 import SoftSkills from "../../../assets/Data-Science/Activities/SoftSkills.png";
 import ResumeBuilding from "../../../assets/Data-Science/Activities/ResumeBuilding.png";
+<<<<<<< HEAD
 import ActivitiesImage from "../../../assets/Data-Analytics/Activities/Activities.jpg";
 import DataAnalyticsCertificate from "../../../assets/Data-Science/Certificate/DataScience.png";
+=======
+import ActivitiesImage from "../../../assets/Data-Science/Activities/Activties.png";
+import DataAnalyticsCertificate from "../../../assets/Data-Science/DataAnalyticsCertificate.jpg";
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 import HiringCompanies from "../../../assets/Data-Science/SalaryAndCompanies/HiringCompanies.png";
 import DAGraph from "../../../assets/Data-Science/SalaryAndCompanies/DAGraph.png";
 
@@ -29,14 +34,20 @@ export const bannerData = {
   description2:
     "Includes Capstone Projects, Research Applications, and Career Support.",
   buttonText: "Enroll Now",
+<<<<<<< HEAD
   calendarInfo: "Coming Soon",
   globeInfo: "Available in Online Mode",
+=======
+  calendarInfo: "Next batch starts on 10th September 2025",
+  globeInfo: "Available in Online & Offline Modes",
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
   imageUrl: analyticsGirlImage,
 };
 
 export const courseBenefitsData = {
   sectionTitle: "What You’ll Gain",
   sectionDescription:
+<<<<<<< HEAD
     "Master data science with practical skills, expert mentorship, and career-focused training. Build confidence to analyze data, create AI solutions, and step into industry roles with impact.",
   benefits: [
     {
@@ -93,29 +104,101 @@ export const toolsData = {
   sectionTitle: "Master In-Demand Data Science Tools",
   sectionDescription:
     "This Data Science program trains you on the essential tools and frameworks used by professionals. From Excel and SQL to Python, Power BI, and advanced ML libraries, you will gain practical expertise to solve real-world data challenges across industries.",
+=======
+    "Advance your career with expert guidance, cutting-edge tools, and real-world project experience in data science and AI. Gain confidence to lead data-driven solutions in any industry.",
+  benefits: [
+    {
+      icon: portfolio,
+      title: "Project-Based Learning",
+      description:
+        "Work on machine learning and AI-based projects to build a solid portfolio.",
+    },
+    {
+      icon: DoubtClearingSessions,
+      title: "Live Mentorship Sessions",
+      description:
+        "Get your queries answered in real-time with mentor-led doubt-clearing sessions.",
+    },
+    {
+      icon: programming,
+      title: "Applied Programming Practice",
+      description:
+        "Reinforce concepts with daily practice and hands-on coding tasks.",
+    },
+    {
+      icon: IndustryOrientedCurriculum,
+      title: "Industry-Aligned Syllabus",
+      description:
+        "Stay ahead with a curriculum designed in collaboration with industry experts.",
+    },
+    {
+      icon: CourseCompletionCertificate,
+      title: "Certification on Completion",
+      description:
+        "Receive a globally accepted certificate to validate your skills.",
+    },
+    {
+      icon: CapstoneProject,
+      title: "Guided Capstone Projects",
+      description:
+        "Solve real-world problems with end-to-end machine learning pipelines.",
+    },
+    {
+      icon: JobTraining,
+      title: "Career Preparation Modules",
+      description:
+        "Simulate real interview and job environments to prepare confidently.",
+    },
+    {
+      icon: RealWorldTraining,
+      title: "Professional Networking",
+      description:
+        "Connect with peers, mentors, and professionals for long-term career growth.",
+    },
+  ],
+};
+
+export const toolsData = {
+  sectionTitle: "Master In-Demand Data Science Tools",
+  sectionDescription:
+    "This Data Science program equips you with the top tools and frameworks used by professionals, from Python and SQL to advanced ML libraries. Prepare to work on complex data challenges across industries.",
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
   leftCards: [
     {
       icon: ExcelIcon,
       title: "Excel",
       description:
+<<<<<<< HEAD
         "Use Excel to clean, transform, and analyze datasets while creating quick summaries and reports.",
+=======
+        "Use Excel for data cleaning, exploratory analysis, and preprocessing.",
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
     },
     {
       icon: SQLIcon,
       title: "SQL",
       description:
+<<<<<<< HEAD
         "Query and manipulate structured data using SQL to extract insights and support business decisions.",
+=======
+        "Extract and manipulate structured data using powerful SQL queries.",
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
     },
     {
       icon: PowerBIIcon,
       title: "Power BI",
       description:
+<<<<<<< HEAD
         "Design interactive dashboards and visual reports to communicate patterns and key performance metrics.",
+=======
+        "Create impactful dashboards to visualize and report complex datasets.",
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
     },
     {
       icon: PythonIcon,
       title: "Python",
       description:
+<<<<<<< HEAD
         "Apply Python for analysis, visualization, and building machine learning and AI-driven applications.",
     },
   ],
@@ -129,6 +212,20 @@ export const toolsData = {
       "Develop machine learning workflows with Scikit-learn, applying both classical and advanced ML techniques.",
       "Train deep learning networks using TensorFlow and Keras for scalable AI-driven applications.",
       "Work interactively in Jupyter Notebook, applying Calculus and ML principles to optimize real-world solutions.",
+=======
+        "Leverage Python for machine learning, deep learning, and data science automation.",
+    },
+  ],
+  rightInfo: {
+    title: "Core Libraries and ML Tools You’ll Use",
+    description:
+      "Gain practical experience using Scikit-learn, Pandas, NumPy, TensorFlow, and Seaborn. These tools help you analyze, model, and visualize data effectively.",
+    points: [
+      "Build predictive models using Scikit-learn and TensorFlow.",
+      "Use Pandas and NumPy to process and transform large datasets efficiently.",
+      "Visualize patterns with Seaborn and Matplotlib.",
+      "Apply data storytelling techniques through dashboards and reports.",
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
     ],
   },
 };
@@ -189,6 +286,10 @@ export const certificateData = {
     "Certification upon successful completion",
   ],
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 export const priceData = {
   title: "Choose Your Learning Format",
   subtitle:
@@ -207,6 +308,7 @@ export const priceData = {
         "Certificate on completion",
         "EMI available",
       ],
+<<<<<<< HEAD
       emi: {
         available: true,
         options: [
@@ -214,6 +316,8 @@ export const priceData = {
           { duration: "6 months", amount: "₹2,500/month" },
         ],
       },
+=======
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
     },
     {
       title: "Live Sessions",
@@ -228,6 +332,7 @@ export const priceData = {
         "Recordings + chat support",
         "EMI available",
       ],
+<<<<<<< HEAD
       emi: {
         available: true,
         options: [
@@ -235,6 +340,8 @@ export const priceData = {
           { duration: "6 months", amount: "₹5,000/month" },
         ],
       },
+=======
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
     },
     {
       title: "Hybrid Plus",
@@ -250,6 +357,7 @@ export const priceData = {
         "Interview prep sessions",
         "EMI available",
       ],
+<<<<<<< HEAD
       emi: {
         available: true,
         options: [
@@ -260,6 +368,12 @@ export const priceData = {
     },
   ],
 };
+=======
+    },
+  ],
+};
+
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 export const faqData = [
   {
     question: "What is Data Science and why should I learn it?",

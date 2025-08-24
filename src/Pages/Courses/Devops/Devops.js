@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import analyticsGirlImage from "../../../assets/Devops/BannerNew.png";
+=======
+import analyticsGirlImage from "../../../assets/Devops/Banner.png";
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 import CapstoneProject from "../../../assets/Devops/Benefits/CapstoneProject.png";
 import CourseCompletionCertificate from "../../../assets/Devops/Benefits/CourseCompletionCertificate.png";
 import DoubtClearingSessions from "../../../assets/Devops/Benefits/DoubtClearingSessions.png";
@@ -7,21 +11,33 @@ import JobTraining from "../../../assets/Devops/Benefits/JobTraining.png";
 import portfolio from "../../../assets/Devops/Benefits/portfolio.png";
 import programming from "../../../assets/Devops/Benefits/programming.png";
 import RealWorldTraining from "../../../assets/Devops/Benefits/RealWorldTraining.png";
+<<<<<<< HEAD
 import Linux from "../../../assets/Devops/Tools/Linux.png";
 import docker from "../../../assets/Devops/Tools/docker.png";
 import AWS from "../../../assets/Devops/Tools/AWS.png";
 import CICD from "../../../assets/Devops/Tools/CICD.png";
+=======
+import PythonIcon from "../../../assets/Devops/Tools/Python.png";
+import SQLIcon from "../../../assets/Devops/Tools/SQL.png";
+import ExcelIcon from "../../../assets/Devops/Tools/Excel.png";
+import PowerBIIcon from "../../../assets/Devops/Tools/PowerBi.png";
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 import LinkedInProfileBuilding from "../../../assets/Devops/Activities/LinkedInProfileBuilding.png";
 import MockInterviews from "../../../assets/Devops/Activities/MockInterviews.png";
 import SoftSkills from "../../../assets/Devops/Activities/SoftSkills.png";
 import ResumeBuilding from "../../../assets/Devops/Activities/ResumeBuilding.png";
+<<<<<<< HEAD
 import ActivitiesImage from "../../../assets/Devops/Activities/Activities.jpg";
+=======
+import ActivitiesImage from "../../../assets/Devops/Activities/Activties.png";
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 import DataAnalyticsCertificate from "../../../assets/Devops/DataAnalyticsCertificate.jpg";
 import HiringCompanies from "../../../assets/Devops/SalaryAndCompanies/HiringCompanies.png";
 import DAGraph from "../../../assets/Devops/SalaryAndCompanies/DAGraph.png";
 export const bannerData = {
   linkText: "Home",
   breadcrumbText: "Courses",
+<<<<<<< HEAD
   heading:
     "Become a Certified AWS DevOps Engineer with Hands-On Projects & Real-World Deployments",
   description1:
@@ -37,6 +53,19 @@ export const bannerData = {
 };
 
 
+=======
+  heading: "Become a Certified DevOps Engineer with Real Tools & Deployments.",
+  description1:
+    "Master Linux, Git, Docker, Jenkins, Kubernetes, AWS, and CI/CD in our industry-focused training.",
+  description2:
+    "Includes Capstone Projects, Internship Support, and Full Placement Assistance.",
+  buttonText: "Enroll Now",
+  calendarInfo: "Next batch starts on 15th September 2025",
+  globeInfo: "Available in Online & Offline Modes",
+  imageUrl: analyticsGirlImage,
+};
+
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 export const courseBenefitsData = {
   sectionTitle: "What You’ll Gain",
   sectionDescription:
@@ -91,6 +120,7 @@ export const courseBenefitsData = {
         "Engage with DevOps professionals, alumni, and recruiters to accelerate your career path.",
     },
   ],
+<<<<<<< HEAD
 };export const toolsData = {
   sectionTitle: "Technologies You’ll Master",
   sectionDescription:
@@ -141,6 +171,51 @@ export const courseBenefitsData = {
   },
 };
 
+=======
+};
+export const toolsData = {
+  sectionTitle: "Technologies You’ll Master",
+  sectionDescription:
+    "Develop deep expertise in essential DevOps tools and practices adopted by leading IT organizations.",
+  leftCards: [
+    {
+      icon: ExcelIcon,
+      title: "Linux & Shell Scripting",
+      description:
+        "Manage server configurations and automate tasks efficiently.",
+    },
+    {
+      icon: SQLIcon,
+      title: "Docker & Kubernetes",
+      description:
+        "Containerize applications and orchestrate multi-container deployments with K8s.",
+    },
+    {
+      icon: PowerBIIcon,
+      title: "CI/CD with Jenkins",
+      description:
+        "Automate build, test, and deployment pipelines using Jenkins and GitHub Actions.",
+    },
+    {
+      icon: PythonIcon,
+      title: "AWS & Terraform",
+      description:
+        "Deploy and manage cloud infrastructure with Terraform scripts and AWS services.",
+    },
+  ],
+  rightInfo: {
+    title: "DevOps Workflow & Deployment",
+    description:
+      "Simulate enterprise DevOps cycles using Git, GitHub, Maven, Jenkins, Docker, and cloud platforms.",
+    points: [
+      "Version control with Git and GitHub.",
+      "CI/CD automation using Jenkins and GitHub Actions.",
+      "Infrastructure as Code using Terraform.",
+      "Cloud deployment to AWS, Azure, and GCP.",
+    ],
+  },
+};
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 export const actvitiesData = {
   title: "Career Readiness & Placement Training",
   items: [
@@ -183,6 +258,7 @@ export const actvitiesData = {
 };
 export const certificateData = {
   image: DataAnalyticsCertificate,
+<<<<<<< HEAD
   heading: "Why Choose Orcas IQ’s AWS DevOps Certification?",
   description:
     "Get trained in DevOps tools and practices that companies demand. From automation to monitoring, be job-ready from day one.",
@@ -195,6 +271,20 @@ export const certificateData = {
   "1-on-1 mentorship from industry DevOps engineers.",
   "Mock interviews and resume-building assistance."
 ],
+=======
+  heading: "Why Choose Orcas IQ’s DevOps Certification?",
+  description:
+    "Get trained in DevOps tools and practices that companies demand. From automation to monitoring, be job-ready from day one.",
+  bulletPoints: [
+    "Linux, Docker, Kubernetes & AWS expertise",
+    "Build & release automation using Jenkins",
+    "IaC with Terraform & configuration management",
+    "1-on-1 project reviews with DevOps engineers",
+    "Mock interviews and resume building",
+    "Hands-on deployment scenarios",
+    "Industry-recognized certification & placement support",
+  ],
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
 };
 export const priceData = {
   title: "Flexible Learning Options",
@@ -219,7 +309,11 @@ export const priceData = {
       title: "Live Sessions",
       description:
         "Interactive live classes with real-time tool setup and deployment practice.",
+<<<<<<< HEAD
       price: "54,999 / 25,999",
+=======
+      price: "54,999 / 30,999",
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
       buttonText: "Enroll Now",
       bgColor: "bg-green-100",
       features: [
@@ -234,7 +328,11 @@ export const priceData = {
       title: "Hybrid Plus",
       description:
         "Access both recorded and live content with career assistance and certifications.",
+<<<<<<< HEAD
       price: "64,999 / 30,999",
+=======
+      price: "64,999 / 39,999",
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
       buttonText: "Enroll Now",
       bgColor: "bg-yellow-100",
       features: [

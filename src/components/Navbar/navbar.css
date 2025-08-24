@@ -84,6 +84,7 @@
   background-color: #062f4b;
   transform: scale(0.96);
 }
+<<<<<<< HEAD
 @keyframes slideInRight {
   0% {
     transform: translateX(100%);
@@ -174,3 +175,5 @@
 .contact-btn {
   font-weight: 700;
 }
+=======
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f

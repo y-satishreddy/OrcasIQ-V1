@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import ScienceImage from "../../../assets/bannerImages/data-science.jpg";
 import { Link } from "react-router-dom";
 const CarouselComponentOne = () => {
@@ -26,10 +27,47 @@ const CarouselComponentOne = () => {
             className="w-full h-full md:h-full object-cover"
           />
           <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-transparent to-black" />
+=======
+import ScienceImage from "../../../assets/Science.jpg"; // Replace with your image if needed
+
+const CarouselComponentTwo = () => {
+  return (
+    <div className="w-full bg-[#f5f5f5] py-[1%] px-[5%] text-black flex flex-col md:flex-row items-center justify-between overflow-hidden">
+      {/* Left Content */}
+      <div className="md:w-1/2 w-full text-left space-y-5">
+        <h2 className="text-3xl sm:text-4xl font-bold leading-snug">
+          Data Analytics
+          <br />
+          Professional Program
+        </h2>
+        <p className="text-base sm:text-lg text-black">
+          Gain hands-on expertise in Excel, SQL, Power BI, Tableau, and more.
+          Get certified and land your dream role in data analytics.
+        </p>
+        <button className="bg-black text-white font-semibold px-6 py-3 hover:bg-gray-200 transition duration-300">
+          Enroll Now
+        </button>
+      </div>
+
+      {/* Right Image */}
+      <div className="md:w-1/2 w-full relative mt-10 md:mt-0 flex justify-end">
+        <div className="relative w-full h-full">
+          <img
+            src={ScienceImage}
+            alt="Data Analytics"
+            className="w-full h-full object-cover"
+          />
+          {/* Gradient Overlay (Hidden on Mobile) */}
+          <div className="absolute inset-0 bg-gradient-to-l from-transparent to-[#f5f5f5] hidden md:block" />
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
         </div>
       </div>
     </div>
   );
 };
 
+<<<<<<< HEAD
 export default CarouselComponentOne;
+=======
+export default CarouselComponentTwo;
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f

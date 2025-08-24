@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "aos": "^2.3.4",
+<<<<<<< HEAD
     "axios": "^1.11.0",
     "framer-motion": "^12.23.9",
     "lucide-react": "^0.539.0",
@@ -19,6 +20,12 @@
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "react-responsive": "^10.0.1",
+=======
+    "framer-motion": "^12.23.9",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+>>>>>>> 55415b2c875d1e4de78bde9d61b9f00fc8255c9f
     "react-router-dom": "^7.7.1",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
